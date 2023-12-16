@@ -31,8 +31,8 @@ const Header = () => {
         </ul>
 
         <div className="btns">
-          <button>Log in</button>
-          <button>Sign up</button>
+          {/* <button>Log in</button>
+          <button>Sign up</button> */}
           <button>Book a Demo</button>
         </div>
       </div>
@@ -104,11 +104,12 @@ const Container = styled.div`
     .menubar {
       display: grid;
       font-size: 2rem;
+      cursor: pointer;
     }
     .navbar {
-      position: absolute;
+      position: fixed;
       width: 100%;
-      height: 100%;
+      height: 100vh;
       flex-direction: column;
       justify-content: center;
       background-color: #ffffff;
@@ -121,6 +122,7 @@ const Container = styled.div`
         top: 1rem;
         right: 1rem;
         font-size: 2rem;
+        cursor: pointer;
       }
       ul {
         flex-direction: column;
