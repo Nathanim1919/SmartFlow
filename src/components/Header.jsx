@@ -113,6 +113,7 @@ const Container = styled.div`
       flex-direction: column;
       justify-content: center;
       background-color: #ffffff;
+      z-index: 5;
       top: 0;
       transform: ${({ isNavOpen }) => (isNavOpen ? "translateY(0%)" : "translateY(-100%)")};
 

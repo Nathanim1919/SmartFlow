@@ -1,5 +1,5 @@
 import React from "react";
-import heroImage from '../assets/cb-interface.png';
+import heroImage from '../assets/cb-middle-1.png';
 import styled from "styled-components";
 
 export default function Home() {
@@ -55,10 +55,10 @@ const Container = styled.div`
 
     @keyframes animate {
         0%{
-            transform: scale(.9);
+            transform: translateY(0rem);
         }
         100%{
-            transform: scale(1);
+            transform: translate(3rem);
         }
     }
 
