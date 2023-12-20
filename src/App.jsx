@@ -8,6 +8,7 @@ import ChatbotsType from './components/ChatbotsType'
 import Services from './components/Services'
 import About from './components/About'
 import CalltoAction from './components/CalltoAction'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +23,7 @@ function App() {
       <ChatbotsType/>
       <Services/>
       <CalltoAction/>
+      <Footer/>
     </>
   )
 }

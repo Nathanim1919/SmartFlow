@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { IoMdClose } from "react-icons/io";
 import { LuMenu } from "react-icons/lu";
+import { FaRobot } from "react-icons/fa";
 
 const Header = () => {
   const [isNavOpen, setNavOpen] = useState(false);
@@ -10,6 +11,7 @@ const Header = () => {
   return (
     <Container isNavOpen={isNavOpen}>
       <div className="logo">
+        <FaRobot/>
         <h2>smartFlow</h2>
       </div>
 
@@ -51,6 +53,18 @@ const Container = styled.div`
   align-items: center;
   border-bottom: 1px solid #eee;
   box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.1);
+
+  .logo{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    font-size: .9rem;
+
+    >*:nth-child(1){
+      font-size: 2rem;
+      color: blue;
+    }
+  }
 
   .menubar {
     display: none;

@@ -33,7 +33,7 @@ const Container = styled.div`
         width: 100%;
         height: 100%;
         object-fit: cover;
-        animation:animate infinite alternate linear 5s;
+        animation:animate infinite alternate linear 10s;
     }
 
     button{
@@ -55,10 +55,10 @@ const Container = styled.div`
 
     @keyframes animate {
         0%{
-            transform: translateY(0rem);
+            transform:scale(.9);
         }
         100%{
-            transform: translate(3rem);
+            transform: scale(1.1);
         }
     }
 

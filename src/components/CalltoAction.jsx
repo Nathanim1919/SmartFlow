@@ -25,9 +25,10 @@ export default function CalltoAction() {
 }
 
 const Container = styled.div`
-  background-color: #2799fd;
+  background-color: #3527fd;
   margin-bottom: 3rem;
   padding: 2rem 0;
+  color: #fff;
 >div{
   width: 70%;
   margin: auto;
